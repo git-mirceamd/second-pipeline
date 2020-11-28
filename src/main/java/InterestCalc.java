@@ -6,6 +6,7 @@ public class InterestCalc {
 
     public static void main(String[] args) {
         double interest = principal * rate/100 * years;
+        interest = interest + 1000;
         System.out.println(interest);
     }
 
